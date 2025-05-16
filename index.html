@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>srFerBoi - Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="loader">
+        <picture id="logo-state_one" class="active">
+            <source srcset="src/img/state_one-loader.webp" type="image/webp">
+            <source srcset="src/img/state_one-loader.png" type="image/png">
+            <img src="src/img/state_one-loader.png" alt="my logo state one">
+        </picture>
+        <picture id="logo-state_two" class="non-active">
+            <source srcset="src/img/state_two-loader.webp" type="image/webp">
+            <source srcset="src/img/state_two-loader.png" type="image/png">
+            <img src="src/img/state_two-loader.png" alt="my logo state two">
+        </picture>
+    </div>
+
+    <div id="main_content">
+        <div class="flecha-arriba">
+            <svg fill="currentColor" height="99px" width="99px" version="1.1" id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                xml:space="preserve" stroke="#D22B2B">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path id="XMLID_224_"
+                        d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z">
+                    </path>
+                </g>
+            </svg>
+        </div>
+    
+        <header class="header">
+            <div class="center-container">
+                <div class="header__content">
+                    <nav class="header__navigation">
+                        <img class="header__navigation-barras" src="src/img/barras.svg" alt="barras de navegacion">
+                        <div class="left">
+                            <a class="no-mostrar-enlaces" href="#projects">Mis Proyectos</a>
+                            <a class="no-mostrar-enlaces" href="#experience">Experiencia</a>
+                            <a class="no-mostrar-enlaces" href="#education">Educación</a>
+                            <a class="no-mostrar-enlaces" href="#tech-stack">Tech Stack</a>
+                            <a class="no-mostrar-enlaces" href="#contacto">Contacto</a>
+                        </div>
+                        <div class="right">
+                            <a class="btn" href="src/docs/FernandoGarciaJibaja_CV.pdf" download="FernandoGarciaJibaja_CV">Descargar CV</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="center-container">
+            <section class="flexbox">
+                <div class="image">
+                    <img src="src/img/anime-me.png" alt="picture of the author in anime style">
+                </div>
+                <div class="info-container">
+                    <h1>Hola, me llamo <span>Fernando</span></h1>
+                    <h2>Soy <span id="what-to-be"></span></h2>
+                    <p class="introduction__info">Soy una persona curiosa y comprometida —demasiado a veces 😅— con todo lo
+                        que me apasiona. Esa curiosidad me ha llevado a explorar muchas ramas del conocimiento, y lejos de
+                        ser una distracción, ha sido mi mayor fortaleza. Gracias a ella he alcanzado metas que ni siquiera
+                        imaginaba, como dedicarme a la programación. Programar siempre fue un objetivo en mi vida, pero
+                        durante mucho tiempo me frenó el miedo a dar el primer paso. Hoy, con mucho trabajo y aprendizaje
+                        detrás, puedo decir que lo di... así que ponte cómod@ y ¡bienvenid@ a mi web!</p>
+    
+                    <ul class="networks">
+                        <li class="network">
+                            <a href="https://www.linkedin.com/in/fernandogarciajibaja/" target="_blank"
+                                rel="noopener noreferrer" title="Linkedin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor">
+                                    <path
+                                        d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                                    <path d="M8 11l0 5" />
+                                    <path d="M8 8l0 .01" />
+                                    <path d="M12 16l0 -5" />
+                                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="network">
+                            <div class="circle">
+                                <a href="https://github.com/FerBoi" target="_blank" rel="noopener noreferrer" title="GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" strokelinecap="round" strokelinejoin="round">
+                                        <path
+                                            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="network">
+                            <a href="https://www.instagram.com/fernando_gjb" target="_blank" rel="noopener noreferrer" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
+                                    <path
+                                        d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                                    <path d="M16.5 7.5l0 .01" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <a id="btn-contacto" class="btn" href="#contacto">Contactar</a>
+                </div>
+            </section>
+    
+            <section id="projects">
+                <h2>Mis Proyectos</h2>
+                <h3>Edición de Vídeo</h3>
+                <div class="grid videos-container">
+                </div>
+    
+                <div class="ver-todos">
+                    <button id="videos" type="button" class="btn">Ver Todos</button>
+                </div>
+    
+    
+                <h3>Programación</h3>
+                <div class="grid programming-container">
+                </div>
+    
+                <div class="ver-todos">
+                    <button id="programming" type="button" class="btn">Ver Todos</button>
+                </div>
+            </section>
+    
+            <section id="experience">
+                <h2>Experiencia Profesional</h2>
+                <p>Aunque aún no he tenido la oportunidad de trabajar en el sector tecnológico o audiovisual (mas allá de
+                    las prácticas formativas), confío plenamente en que
+                    el esfuerzo que he invertido en mi formación en las distintas áreas de conocimiento me permitirán
+                    acceder a mi primera experiencia
+                    laboral, donde podré demostrar de lo que soy capaz. Mi motivación es muy alta y tengo un fuerte deseo de
+                    seguir aprendiendo, como lo demuestra el hecho de que esta misma página web ha sido diseñada y
+                    desarrollada por mí. He construido este portfolio aplicando los conocimientos que estoy adquiriendo de
+                    forma autodidacta, complementando así los fundamentos adquiridos durante mis estudios en el Grado
+                    Superior de Desarrollo de Aplicaciones Multiplataforma (DAM), donde me enfoqué principalmente en el
+                    desarrollo backend, con el objetivo de convertirme algún día en un desarrollador fullstack.</p>
+                <p><span>Estoy abierto a nuevas oportunidades, colaboraciones o cualquier proyecto que me permita seguir
+                        creciendo y aportar valor</span>.</p>
+            </section>
+    
+            <section id="education">
+                <h2>Educación</h2>
+                <div class="timeline">
+                    <div class="timeline__event">
+                        <div class="timeline__event__date">
+                            <p>09-2024</p>
+                        </div>
+                        <div class="timeline__event__content">
+                            <h3>Certificación - Spring Boot 3, Spring 6 & Hibernate for Beginners</h3>
+                            <p>Durante esta formación he adquirido conocimientos sobre las bases de Spring Boot 3 y Spring
+                                6, dos de las tecnologías más poderosas y ampliamente utilizadas en el desarrollo de
+                                aplicaciones empresariales. Durante el curso, aprendí a configurar, desarrollar y desplegar
+                                aplicaciones completas usando estos frameworks, optimizando tanto el backend como la
+                                integración con bases de datos.</p>
+                        </div>
+                    </div>
+    
+                    <div class="timeline__event">
+                        <div class="timeline__event__date">
+                            <p>06-2024</p>
+                        </div>
+                        <div class="timeline__event__content">
+                            <h3>Grado Superior - Desarrollo de Aplicaciones Multiplataforma</h3>
+                            <p>Durante esta formación he adquirido conocimientos en el desarrollo de aplicaciones para
+                                diferentes plataformas, tanto móviles como de escritorio. Me he centrado en el desarrollo
+                                backend, aprendiendo a crear software utilizando tecnologías como Java con bases de datos
+                                SQL.</p>
+                        </div>
+                    </div>
+    
+                    <div class="timeline__event">
+                        <div class="timeline__event__date">
+                            <p>06-2021</p>
+                        </div>
+                        <div class="timeline__event__content">
+                            <h3>Grado Universitario - Comunicación Audiovisual</h3>
+                            <p>Durante esta formación he adquirido un profundo conocimiento en la creación, producción y
+                                distribución de contenidos visuales. Asimismo, me he especializado principalmente en la
+                                edición de
+                                video, aprendiendo a utilizar herramientas profesionales para este fin, como diversos
+                                editores de
+                                vídeo y After Effects, lo que me ha permitido perfeccionar mis habilidades en la edición y
+                                postproducción. Esta formación me ha brindado la capacidad de crear contenidos audiovisuales
+                                de alta
+                                calidad, aplicando tanto técnicas creativas como conocimientos técnicos avanzados en la
+                                manipulación
+                                de imágenes y sonido.</p>
+                        </div>
+                    </div>
+    
+                    <div class="timeline__event">
+                        <div class="timeline__event__date">
+                            <p>06-2017</p>
+                        </div>
+                        <div class="timeline__event__content">
+                            <h3>Grado Superior - Administración de Sistemas Informáticos en Red</h3>
+                            <p>Durante esta formación he adquirido conocimientos en la instalación, configuración y
+                                mantenimiento de sistemas informáticos. Además de la debida administración de servidores,
+                                tanto en sistemas Windows como Linux, así como en la gestión de redes locales y servicios
+                                asociados como DNS, DHCP, FTP y Active Directory.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="tech-stack">
+                <h2>Stack Tecnológico</h2>
+                <h3>Lenguajes de Programación</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="src/img/java-vector.svg" alt="java icon" title="Java">
+                    </li>
+                    <li>
+                        <img src="src/img/html-vector.svg" alt="html5 icon" title="HTML">
+                    </li>
+                    <li>
+                        <img src="src/img/css-vector.svg" alt="css3 icon" title="CSS">
+                    </li>
+                    <li>
+                        <img src="src/img/js-vector.svg" alt="javascript icon" title="JavaScript">
+                    </li>
+                </ul>
+                <h3>Frameworks</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="src/img/spring-vector.svg" alt="spring icon" title="Spring">
+                    </li>
+                    <li>
+                        <img src="src/img/hibernate-vector.svg" alt="hibernate icon" title="Hibernate">
+                    </li>
+                </ul>
+                <h3>Bases de Datos</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="src/img/mysql-vector.svg" alt="mysql icon" title="MySQL">
+                    </li>
+                    <li>
+                        <img src="src/img/mongodb-vector.svg" alt="mongodb icon" title="MongoDB">
+                    </li>
+                    <li>
+                        <img src="src/img/mariadb-vector.svg" alt="mariadb icon" title="MariaDB">
+                    </li>
+                </ul>
+                <h3>Herramientas</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="src/img/git-vector.svg" alt="git icon" title="Git">
+                    </li>
+                    <li>
+                        <img src="src/img/github-vector.svg" alt="github icon" title="GitHub">
+                    </li>
+                </ul>
+                <h3>IDEs y Editores de Código</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="src/img/intellij-vector.svg" alt="intellj idea icon" title="Intellj Idea">
+                    </li>
+                    <li>
+                        <img src="src/img/netbeans-vector.svg" alt="netbeans icon" title="Netbeans">
+                    </li>
+                    <li>
+                        <img src="src/img/eclipse-vector.svg" alt="eclipse icon" title="Eclipse">
+                    </li>
+                    <li>
+                        <img src="src/img/vs_code-vector.svg" alt="visual studio code icon" title="Visual Studio Code">
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <div class="flexbox">
+                    <div class="flip-container">
+                        <div class="flip-card">
+                            <div class="front">
+                                <h2>Email</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"
+                                    fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                                    <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
+                                </svg>
+                            </div>
+                            <div class="back">
+                                <h3>fernandogajib@gmail.com</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-container">
+                        <div class="flip-card">
+                            <div class="front">
+                                <h2>Teléfono</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"
+                                    fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                                    <path
+                                        d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                    <path d="M15 7a2 2 0 0 1 2 2" />
+                                    <path d="M15 3a6 6 0 0 1 6 6" />
+                                </svg>
+                            </div>
+                            <div class="back">
+                                <h3>681 658 240</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer class="footer">
+            <div class="center-container">
+                <div class="quote">
+                    <blockquote class="quote__info">
+                        Todas las pasiones son buenas mientras uno es dueño de ellas, y todas son malas cuando nos
+                        esclavizan.
+                    </blockquote>
+                    <p class="quote__author">Jean Jacques Rousseau (1712-1778)</p>
+                </div>
+                <div class="footer__end">
+                    <p>Copyright ©2025 - Fernando García</p>
+                    <ul class="networks">
+                        <li class="network">
+                            <a href="https://www.linkedin.com/in/fernandogarciajibaja/" target="_blank"
+                                rel="noopener noreferrer" title="Linkedin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor">
+                                    <path
+                                        d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                                    <path d="M8 11l0 5" />
+                                    <path d="M8 8l0 .01" />
+                                    <path d="M12 16l0 -5" />
+                                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="network">
+                            <div class="circle">
+                                <a href="https://github.com/FerBoi" target="_blank" rel="noopener noreferrer" title="GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" strokelinecap="round" strokelinejoin="round">
+                                        <path
+                                            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="network">
+                            <a href="https://www.instagram.com/fernando_gjb" target="_blank" rel="noopener noreferrer" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
+                                    <path
+                                        d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                                    <path d="M16.5 7.5l0 .01" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+[
+    {
+        "thumbnail_source" : "src/img/capacitados_thumbnail.png",
+        "titulo" : "Capacitados",
+        "link_youtube" : "https://youtu.be/9WB52Lxq3Jo"
+    },
+    {
+        "thumbnail_source" : "src/img/el_aviso.webp",
+        "titulo" : "El Aviso",
+        "link_youtube" : "https://youtu.be/L3penFvg90Y"
+    },
+    {
+        "thumbnail_source" : "src/img/perdidos_en_juego.png",
+        "titulo" : "Perdidos en el Juego",
+        "link_youtube" : "https://youtu.be/uypBN2spKck"
+    },
+    {
+        "thumbnail_source" : "src/img/lado_oscuro_constitucion.png",
+        "titulo" : "El Lado Oscuro de la Constitución",
+        "link_youtube" : "https://youtu.be/6Zk45tZ53zU"
+    },
+    {
+        "thumbnail_source" : "src/img/covid_19.png",
+        "titulo" : "2020 - El año del COVID-19",
+        "link_youtube" : "https://youtu.be/uZPLt5UR64w"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "img_source" : "src/img/puzzle_9Piezas.jpg",
+        "title" : "Puzzle 9 Piezas",
+        "description" : "Este juego consiste en reorganizar 9 piezas hasta formar correctamente una imagen completa.",
+        "stack_used_images" : ["src/img/java-vector.svg", "src/img/javafx.png"],
+        "stack_used_titles" : ["Java", "JavaFX"],
+        "github_link" : "https://github.com/FerBoi/1stGame-SlidingPuzzle"
+    },
+    {
+        "img_source" : "src/img/mineswheeper.png",
+        "title" : "Buscaminas",
+        "description" : "Este juego consiste en descubrir las casillas de un campo minado sin detonar ninguna mina.",
+        "stack_used_images" : ["src/img/java-vector.svg", "src/img/javafx.png"],
+        "stack_used_titles" : ["Java", "JavaFX"],
+        "github_link" : "https://github.com/FerBoi/2ndGame-Minesweeper" 
+    },
+    {
+        "img_source" : "src/img/ping-pong.png",
+        "title" : "Pong",
+        "description" : "Este juego consiste en evitar que la pelota pase a través de la pala del jugador.",
+        "stack_used_images" : ["src/img/java-vector.svg", "src/img/javafx.png"],
+        "stack_used_titles" : ["Java", "JavaFX"],
+        "github_link" : "https://github.com/FerBoi/3rdGame-Pong" 
+    },
+    {
+        "img_source" : "src/img/traductor.png",
+        "title" : "Traductor EN-SPA",
+        "description" : "Este programa sirve tanto para traductor de español a inglés como para guardar palabras.",
+        "stack_used_images" : ["src/img/java-vector.svg", "src/img/javafx.png"],
+        "stack_used_titles" : ["Java", "JavaFX"],
+        "github_link" : "https://github.com/FerBoi/DiccionaryFX" 
+    },
+    {
+        "img_source" : "src/img/my_web.png",
+        "title" : "Mi Sitio Web",
+        "description" : "Portafolio personal con información sobre mí, mis proyectos y más.",
+        "stack_used_images" : ["src/img/html-vector.svg", "src/img/css-vector.svg", "src/img/js-vector.svg"],
+        "stack_used_titles" : ["HTML", "CSS", "JavaScript"],
+        "github_link" : "https://github.com/FerBoi/DiccionaryFX" 
+    }
+]
