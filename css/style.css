@@ -435,8 +435,7 @@ svg:hover {
 }
 
 .timeline__event__date {
-    flex: 1;
-
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -465,14 +464,10 @@ svg:hover {
   aspect-ratio: 3 / 2;
   transform-style: preserve-3d;
   transition: transform 0.6s;
+  transform: none;
 }
 
-.flip-container:hover .flip-card,
 .flip-container.flipped .flip-card {
-  transform: rotateY(180deg);
-}
-
-.flip-container:active .flip-card {
   transform: rotateY(180deg);
 }
 
@@ -489,6 +484,12 @@ svg:hover {
 
 .back {
   transform: rotateY(180deg);
+}
+
+@media (hover: hover) {
+  .flip-container:hover .flip-card {
+    transform: rotateY(180deg);
+  }
 }
 
 /* FOOTER */
