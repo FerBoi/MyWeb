@@ -37,6 +37,6 @@
         "description" : "Portafolio personal con información sobre mí, mis proyectos y más.",
         "stack_used_images" : ["src/img/html-vector.svg", "src/img/css-vector.svg", "src/img/js-vector.svg"],
         "stack_used_titles" : ["HTML", "CSS", "JavaScript"],
-        "github_link" : "https://github.com/FerBoi/DiccionaryFX" 
+        "github_link" : "https://github.com/FerBoi/MyWeb" 
     }
 ]
