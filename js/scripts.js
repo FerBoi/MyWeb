@@ -1,5 +1,5 @@
 const elementosIniciales = 3;
-const JSONpath = ["https://ferboi.github.io/MyWeb/src/json/mis_proyectos-edicion.json", 
+const JSONpath = ["https://ferboi.github.io/MyWeb/src/json/mis_proyectos-edicion.json",
     "https://ferboi.github.io/MyWeb/src/json/mis_proyectos-programacion.json"];
 
 let indexEachGrid = [0, 0];
@@ -63,7 +63,7 @@ function eventListeners() {
         link.addEventListener("click", e => {
             const target = e.target.getAttribute("href");
 
-            if(target.includes("pdf"))
+            if (target.includes("pdf"))
                 return;
 
             e.preventDefault();
@@ -120,6 +120,12 @@ function eventListeners() {
 
             esVerTodos[i] = !esVerTodos[i];
         })
+    });
+
+    document.querySelectorAll('.flip-container').forEach(container => {
+        container.addEventListener('click', () => {
+            container.classList.toggle('flipped');
+        });
     });
 }
 
