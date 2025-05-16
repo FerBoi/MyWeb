@@ -1,5 +1,5 @@
 const elementosIniciales = 3;
-const JSONpath = ["../src/json/mis_proyectos-edicion.json", "../src/json/mis_proyectos-programacion.json"];
+const JSONpath = ["/src/json/mis_proyectos-edicion.json", "/src/json/mis_proyectos-programacion.json"];
 
 let indexEachGrid = [0, 0];
 let elementosACargar = [elementosIniciales, elementosIniciales];
