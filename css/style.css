@@ -467,7 +467,8 @@ svg:hover {
   transition: transform 0.6s;
 }
 
-.flip-container:hover .flip-card {
+.flip-container:hover .flip-card,
+.flip-container.flipped .flip-card {
   transform: rotateY(180deg);
 }
 
