@@ -124,7 +124,8 @@ function eventListeners() {
 
     document.querySelectorAll('.flip-container').forEach(container => {
         container.addEventListener('click', () => {
-            container.classList.toggle('flipped');
+            if ('ontouchstart' in window || navigator.maxTouchPoints > 0)
+                container.classList.toggle('flipped');
         });
     });
 }
