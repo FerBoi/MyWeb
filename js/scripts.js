@@ -49,8 +49,13 @@ function loader() {
 function eventListeners() {
     const imgBarras = document.querySelector(".header__navigation-barras");
     const links = document.querySelectorAll(".left a");
+    let segundaImg = "src/img/close.svg";
 
     imgBarras.addEventListener("click", () => {
+        let swapPath = imgBarras.src;
+        imgBarras.src = segundaImg;
+        segundaImg = swapPath;
+
         links.forEach(link => {
             link.classList.toggle("mostrar-enlaces");
             link.classList.toggle("no-mostrar-enlaces");
